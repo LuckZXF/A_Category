@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "A_Category"
-  s.version      = "1.0"
-  s.summary      = "A_Category."
+  s.name         = "Zxf_A_Category"
+  s.version      = "3"
+  s.summary      = "Zxf_A_Category."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
                     this is A_Category
                    DESC
 
-  s.homepage     = "https://github.com/LuckZXF/A_Category"
+  s.homepage     = "https://github.com/LuckZXF/Zxf_A_Category"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -53,7 +53,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "CasaTaloyum" => "casatwy@msn.com" }
+  s.author             = { "LuckZXF" => "179988305@qq.com" }
   # Or just: s.author    = "CasaTaloyum"
   # s.authors            = { "CasaTaloyum" => "casatwy@msn.com" }
   # s.social_media_url   = "http://twitter.com/CasaTaloyum"
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/LuckZXF/A_Category.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/LuckZXF/Zxf_A_Category.git", :tag => s.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "A_Category/A_Category/**/*.{h,m}"
+  s.source_files  = "Zxf_A_Category/Zxf_A_Category/**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -136,7 +136,5 @@ Pod::Spec.new do |s|
   # s.dependency "BLNetworking"
   # s.dependency "BLAPIManagers"
   # s.dependency "BLMediator"
-
-  s.dependency "CTMediator"
 
 end
